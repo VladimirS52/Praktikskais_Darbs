@@ -26,10 +26,10 @@ namespace Music_player
         {
             InitializeComponent();
         }
-
+//sdasdasdasd
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            string radioUrl = RadioUrlTextBox.Text;
+            strin radioUrl = RadioUrlTextBox.Text;
 
             if (string.IsNullOrWhiteSpace(radioUrl))
             {
